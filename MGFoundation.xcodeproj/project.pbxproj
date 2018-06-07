@@ -15,6 +15,9 @@
 		56E1487B20C8E23800A8295E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E1487A20C8E23800A8295E /* main.m */; };
 		56E1488520C8E23800A8295E /* MGFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E1488420C8E23800A8295E /* MGFoundationTests.m */; };
 		56E1489020C8E23800A8295E /* MGFoundationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E1488F20C8E23800A8295E /* MGFoundationUITests.m */; };
+		56E148E220C8F94100A8295E /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E148E020C8F94100A8295E /* CTMediator.m */; };
+		56E148E320C8F94100A8295E /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E148E020C8F94100A8295E /* CTMediator.m */; };
+		56E148E420C8F94100A8295E /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E148E020C8F94100A8295E /* CTMediator.m */; };
 		FF78812D1C2D9ED4131384B7 /* libPods-MGFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0508815A3EFACD006C95EF /* libPods-MGFoundation.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,8 @@
 		56E1488B20C8E23800A8295E /* MGFoundationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGFoundationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E1488F20C8E23800A8295E /* MGFoundationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGFoundationUITests.m; sourceTree = "<group>"; };
 		56E1489120C8E23800A8295E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56E148E020C8F94100A8295E /* CTMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
+		56E148E120C8F94100A8295E /* CTMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,7 @@
 		56E1486A20C8E23600A8295E /* MGFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				56E148DF20C8F94100A8295E /* MGFoundation */,
 				56E1486B20C8E23600A8295E /* AppDelegate.h */,
 				56E1486C20C8E23600A8295E /* AppDelegate.m */,
 				56E1486E20C8E23600A8295E /* ViewController.h */,
@@ -146,6 +152,15 @@
 				56E1489120C8E23800A8295E /* Info.plist */,
 			);
 			path = MGFoundationUITests;
+			sourceTree = "<group>";
+		};
+		56E148DF20C8F94100A8295E /* MGFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				56E148E020C8F94100A8295E /* CTMediator.m */,
+				56E148E120C8F94100A8295E /* CTMediator.h */,
+			);
+			path = MGFoundation;
 			sourceTree = "<group>";
 		};
 		6894ACCFA7386177B8409149 /* Frameworks */ = {
@@ -311,6 +326,7 @@
 				56E1487020C8E23600A8295E /* ViewController.m in Sources */,
 				56E1487B20C8E23800A8295E /* main.m in Sources */,
 				56E1486D20C8E23600A8295E /* AppDelegate.m in Sources */,
+				56E148E220C8F94100A8295E /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56E1488520C8E23800A8295E /* MGFoundationTests.m in Sources */,
+				56E148E320C8F94100A8295E /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56E1489020C8E23800A8295E /* MGFoundationUITests.m in Sources */,
+				56E148E420C8F94100A8295E /* CTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
